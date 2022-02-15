@@ -1,0 +1,95 @@
+body {
+    background-color: #FFF5EC;
+}
+
+.fab {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    background-color: #DB6E7E;
+    border-color: #DB6E7E;
+    border-radius: 24px;
+    z-index: 2;
+}
+
+.fab a {
+    color: #FFF5EC;
+}
+
+.fab:hover {
+    background-color: #DB6E7E;
+    border-color: #DB6E7E;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+header {
+   background-color: #FFF5EC;
+}
+
+.hero {
+    color: #9C6E7E;
+}
+
+.primaryhero {
+    color: #FFF5EC;
+    background-color: #9C6E7E;
+    border-color: #9C6E7E;
+    border-radius: 24px;
+}
+
+.primaryhero:hover {
+    color:#FFF5EC;
+    background-color: #DB6E7E;
+    border-color: #DB6E7E;
+}
+
+.secondaryhero {
+    color: #9C6E7E;
+    border-color: #9C6E7E;
+    border-radius: 24px;
+    border-width: 2px;
+}
+
+.secondaryhero:hover {
+    color:#DB6E7E;
+    background-color: transparent;
+    border-color: #DB6E7E;
+    border-width: 2px;
+}
+
+.herocont {
+    height: 50px;
+}
+
+.heroimg {
+    border-radius: 48px;
+}
+
+.card1, .card2, .card3, .card4 {
+    border-radius: 48px;
+}
+
+.selection {
+    color: white;
+    background: #9C6E7E
+}
+
+/*Cosas de Bootstrap que me he cargado*/
+
+.nav-pills .nav-link.active {
+    background-color: #9C6E7E;
+    color: #FFF5EC;
+    border-radius: 24px;
+}
+
+.nav-link.active:hover {
+    background-color: #DB6E7E;
+}
+
+.nav-link {
+    color: #9C6E7E;
+}
+
+.nav-link:hover {
+    color: #DB6E7E;
+}
